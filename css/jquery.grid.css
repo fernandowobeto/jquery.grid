@@ -1,0 +1,147 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+div.table-grid-header{
+  height: 34px;
+}
+
+div.table-grid-body{
+  margin-top: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #BFBFBF;
+}
+
+div.table-grid-header table,
+div.table-grid-body table{
+  margin-bottom: 1.667em;
+  border: 1px solid #999;
+  border-collapse: separate;
+  border-spacing:1px;
+  text-align: left;
+  -moz-user-select: none;
+  margin: 0px;
+  cursor: default;
+  table-layout: fixed;
+  background-color:#DDD;
+}
+
+div.table-grid-body table{
+  background-color:#C1C1C1;
+}
+
+div.table-grid-header table thead tr th,
+div.divPaginacao{
+  background: #a4a4a4 url(images/planning-header-bg.png) repeat-x top !important;
+  -webkit-background-size: 100% 100% !important;
+  -moz-background-size: 100% 100% !important;
+  -o-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background: -moz-linear-gradient(
+    top,
+    #cccccc,
+    #a4a4a4
+    ) !important;
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(#cccccc),
+    to(#a4a4a4)
+    ) !important;
+  height: 35px;
+  overflow: hidden;
+  padding: 0 2px 0 2px;
+  background-image: url('images/fundo_header_grid.png');
+  background-image: url('images/bg.gif');
+  background-size: 1px 30px;
+}
+
+div.table-grid-header table thead tr th{
+  color: white !important;
+  -moz-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7) !important;
+  -webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7) !important;
+}
+
+div.table-grid-body table thead tr th{
+  padding: 0 2px 0 2px;
+}
+
+div.table-grid-body table tbody tr{
+  background-color: #FFF;
+  height: 25px;
+}
+
+div.table-grid-body table tbody tr td{
+  overflow:hidden;
+  padding: 0 2px 0 2px;
+}
+/* div.table-grid-body table tbody tr td:not(:first-child){
+  border-left: 1px dotted #000;
+} */
+
+div.table-grid-body table tbody tr:nth-child(odd){
+  background-color: #E1E1E1;
+}
+
+div.table-grid-body table tbody tr:hover{
+  background-color: #CCCCCC;
+}
+
+div.divPaginacao{
+  border-top: 1px solid #DDDDDD;
+  height: 27px;
+  background-size:1px 27px;
+  padding: 2px;
+}
+
+div.divPaginacao div.div_comandos{
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+div.divPaginacao div.div_comandos div{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  float: left;
+  border-radius: 3px;
+  border: 1px solid #FFF;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 2px;
+}
+
+div.divPaginacao div.div_comandos div:hover{
+  border: 1px solid grey;
+}
+
+div.divPaginacao div.div_comandos div:active{
+  background-color: #e1e1e1;
+}
+
+div.divPaginacao div.div_comandos div.select{
+  width: 70px;
+  border: 0;
+}
+
+div.divPaginacao div.primeiro{
+  background-image: url('images/primeiro.gif');
+}
+div.divPaginacao div.anterior{
+  background-image: url('images/anterior.gif');
+}
+div.divPaginacao div.proximo{
+  background-image: url('images/proximo.gif');
+}
+div.divPaginacao div.ultimo{
+  background-image: url('images/ultimo.gif');
+}
+
+div.divPaginacao div.info_pg{
+  float:right;
+  margin-top: 4px;
+  margin-right: 5px;
+}
