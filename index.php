@@ -1,7 +1,7 @@
 <html>
   <head>
-    <link href="css/jquery.grid.css" type="text/css" rel="stylesheet"> 
-    <script src="../jquery.js"></script>
+    <link href="css/jquery.grid.css" type="text/css" rel="stylesheet">
+    <script src="jquery.js"></script>
     <script src="jquery.grid.js"></script>
     <script>
       $(document).ready(function(){
