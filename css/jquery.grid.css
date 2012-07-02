@@ -8,6 +8,10 @@ div.table-grid-body{
   overflow-x: hidden;
 }
 
+div.table-grid-body table{
+  background-color: #FFF;
+}
+
 div.table-grid-header table,
 div.table-grid-body table{
   border-collapse: collapse;
@@ -53,6 +57,10 @@ div.table-grid-body table tbody td{
 
 div.table-grid-body table tbody tr:nth-child(even){
   background: none repeat scroll 0 0 #ECECEC;
+}
+
+div.table-grid-body table tbody tr:hover{
+  background-color: #E1E1E1;
 }
 
 div.divPaginacao{
