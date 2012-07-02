@@ -39,7 +39,7 @@
         <?
         for($i=1;$i<=1000;$i++){
           echo "<tr>
-                  <td>Fernandoa $i</td>
+                  <td>Fernando $i</td>
                   <td>Wobeto</td>
                   <td>$i</td>
                   <td>30</td>
