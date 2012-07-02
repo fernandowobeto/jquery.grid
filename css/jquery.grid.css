@@ -43,10 +43,14 @@ div.table-grid-body table thead th{
   border-left: 1px solid #373737;
 }
 
+div.table-grid-header table thead th,
+div.divPaginacao{
+  background: url("images/table_header_repeat.jpg") repeat-x scroll 0 0 transparent;
+}
+
 div.table-grid-header table thead th{
   border-left: 1px solid #373737;
   height: 35px;
-  background: url("images/table_header_repeat.jpg") repeat-x scroll 0 0 transparent;
   color: #FFFFFF;
 }
 
@@ -69,7 +73,6 @@ div.table-grid-body table tbody tr:hover{
 }
 
 div.divPaginacao{
-  background: url("images/table_header_repeat.jpg") repeat-x scroll 0 0 transparent;
   color: #FFF;
   border-top: 1px solid #DDDDDD;
   height: 29px;
